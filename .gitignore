@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+/prepared_*/
+/custom_run/
+/new_figures/
+/*_backup/

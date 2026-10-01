@@ -1,0 +1,11 @@
+order_id,customer,email,category,order_date,amount,status
+O001,Alice Chen,alice@example.com,Office,2026-09-01,120.00,Paid
+O002,Bob Smith,bob@example.com,Technology,2026-09-02,250.00,Paid
+O003,Carla Jones,,Furniture,2026-09-03,450.50,Pending
+O004,David Lee,david@example.com,Office,2026-09-04,75.50,Paid
+O005,Eva Patel,eva@example.com,Technology,2026-09-05,1200.00,Paid
+O006,Frank Wu,frank@example.com,Office,2026-09-06,0.00,Cancelled
+O007,Grace Kim,grace@example.com,Furniture,2026-09-07,320.00,Pending
+O008,Henry Park,,Technology,2026-09-08,89.99,Paid
+O009,Ivy Brown,ivy@example.com,Office,2026-09-09,45.00,Paid
+O010,Jack Lin,jack@example.com,Furniture,2026-09-10,600.00,Paid

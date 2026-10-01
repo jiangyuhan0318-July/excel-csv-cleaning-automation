@@ -1,0 +1,61 @@
+{
+  "input_rows": 20,
+  "cleaned_rows": 10,
+  "duplicates_removed": 2,
+  "rejected_rows": 8,
+  "normalized_cells": 45,
+  "missing_input_cells": {
+    "order_id": 0,
+    "customer": 1,
+    "email": 2,
+    "category": 0,
+    "order_date": 0,
+    "amount": 1,
+    "status": 0
+  },
+  "accepted_missing_email": 2,
+  "rejection_reasons": {
+    "missing_customer": 1,
+    "missing_amount": 1,
+    "invalid_date": 1,
+    "unknown_category": 1,
+    "negative_amount": 1,
+    "invalid_email": 1,
+    "conflicting_order_id": 2
+  },
+  "amount_total": "3150.99",
+  "amount_mean": "315.10",
+  "category_counts": {
+    "Office": 4,
+    "Technology": 3,
+    "Furniture": 3
+  },
+  "status_counts": {
+    "Paid": 7,
+    "Pending": 2,
+    "Cancelled": 1
+  },
+  "rules": {
+    "category_aliases": {
+      "office": "Office",
+      "office supplies": "Office",
+      "tech": "Technology",
+      "technology": "Technology",
+      "furniture": "Furniture"
+    },
+    "status_aliases": {
+      "paid": "Paid",
+      "complete": "Paid",
+      "completed": "Paid",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "canceled": "Cancelled"
+    },
+    "date_formats": [
+      "%Y-%m-%d",
+      "%Y/%m/%d",
+      "%m/%d/%Y",
+      "%d-%b-%Y"
+    ]
+  }
+}

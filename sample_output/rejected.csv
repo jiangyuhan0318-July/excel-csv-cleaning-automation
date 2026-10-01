@@ -1,0 +1,9 @@
+source_row,decision,issues,raw_order_id,raw_customer,raw_email,raw_category,raw_order_date,raw_amount,raw_status,clean_order_id,clean_customer,clean_email,clean_category,clean_order_date,clean_amount,clean_status
+14,rejected,missing_customer,O011,,kate@example.com,Office,2026-09-11,15,Paid,O011,,kate@example.com,Office,2026-09-11,15.00,Paid
+15,rejected,missing_amount,O012,Leo Sun,leo@example.com,Tech,2026-09-12,,Paid,O012,Leo Sun,leo@example.com,Technology,2026-09-12,,Paid
+16,rejected,invalid_date,O013,Mia Hall,mia@example.com,Furniture,2026-02-30,80,Pending,O013,Mia Hall,mia@example.com,Furniture,2026-02-30,80.00,Pending
+17,rejected,unknown_category,O014,Noah King,noah@example.com,Mystery,2026-09-14,30,Paid,O014,Noah King,noah@example.com,Mystery,2026-09-14,30.00,Paid
+18,rejected,negative_amount,O015,Olivia Fox,olivia@example.com,Office,2026-09-15,-20,Paid,O015,Olivia Fox,olivia@example.com,Office,2026-09-15,-20,Paid
+19,rejected,invalid_email,O016,Paul Reed,not-an-email,Tech,2026-09-16,100,Paid,O016,Paul Reed,not-an-email,Technology,2026-09-16,100.00,Paid
+20,rejected,conflicting_order_id,O017,Quinn Ray,quinn@example.com,Office,2026-09-17,40,Paid,O017,Quinn Ray,quinn@example.com,Office,2026-09-17,40.00,Paid
+21,rejected,conflicting_order_id,O017,Quinn Ray,quinn@example.com,Office,2026-09-17,90,Paid,O017,Quinn Ray,quinn@example.com,Office,2026-09-17,90.00,Paid
